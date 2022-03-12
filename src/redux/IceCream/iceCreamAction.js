@@ -1,6 +1,6 @@
 import { BUY_ICE } from "./iceCreamType"
 
-export default function buyIce() {
+export const buyIce = () => {
     return {
         type: BUY_ICE
     }
